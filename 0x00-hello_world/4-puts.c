@@ -1,9 +1,10 @@
 #include<stdio.h>
 
 /**
- * Description: 'this program show us how to use the puts function'
- */ 
-
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char biroue[] = "\"Programming is like building a multilingual puzzle";
