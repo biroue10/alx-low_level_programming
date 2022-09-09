@@ -12,7 +12,8 @@ int main(void)
 {
 	int n;
 
-for (n='x'; n<'e'; n++){
+for (n='a'; n<'e'; n++)
+{
 putchar(n);
 	}	
 	return (0);
