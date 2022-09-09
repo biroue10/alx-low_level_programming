@@ -10,11 +10,16 @@
 
 int main(void)
 {
-	int n;
+	int n='a';
+	while(n<='z'){
+		if(n!='e')
+		{
+			if(n!='q'){
+				putchar(n);
+			}
+		}
 
-for (n='a'; n<'e' && n>'q' ; n++)
-{
-putchar(n);
-	}	
+			n++;
+	}
 	return (0);
 }
