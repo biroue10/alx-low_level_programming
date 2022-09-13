@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 /**
  * main - this function print a string wtihout using a standard library
  *
@@ -6,8 +6,13 @@
  */
 int main(void)
 {
-	write(1, "_putchar", 8);
-	write(1, "\n", 1);
+	char c[]="_putchar";
+	int compteur;
+	for(compteur=0; compteur<=8; compteur++){
+		_putchar(c[compteur]);
+	}
+	_putchar('\n');
 	return (0);
+
 }
 
