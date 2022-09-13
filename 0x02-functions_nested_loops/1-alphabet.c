@@ -1,11 +1,9 @@
 #include"main.h"
-
 /**
- * main - Entry point
- *
- * Description: this function print alphabet
- *
- * Return: Always 0 (Success)
+ * print_alphabet - Entry point
+ * Description: a function that prints the alphabet,
+ * in lowecase followed by a new line
+ * Return: void
  */
 
 void print_alphabet(void)
