@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 	char s = 'a';
 	int compteur;
 
-	for (compteur=0; compteur<=10; compteur++)
+	for (compteur=0; compteur<=9; compteur++)
 	{
 		for (s = 'a'; s <= 'z'; s++)
 		{
