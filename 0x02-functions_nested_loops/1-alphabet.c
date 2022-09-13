@@ -5,7 +5,7 @@
  * Description: this function print alphabet characters in lower case
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	char s = 'a';
 
