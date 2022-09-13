@@ -1,8 +1,16 @@
 #include "main.h"
 
-int main (void){
+/**
+ * main - Entry point
+ * Description: this function print alphabet characters in lower case
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
 	char s = 'a';
-	for(s='a';s<='z';s++){
+
+	for (s = 'a'; s <= 'z'; s++)
+	{
 	_putchar(s);
 	}
 	_putchar('\n');
