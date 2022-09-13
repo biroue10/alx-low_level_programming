@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * main - this function print a string wtihout using a standard library
- *
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -16,4 +15,3 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
-
