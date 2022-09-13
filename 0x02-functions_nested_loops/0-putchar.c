@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - this function print a string wtihout using a standard library
- * Return: Always 0 (Success)
- */
+* main - this function print a string wtihout using a standard library
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	char c[] = "_putchar";
