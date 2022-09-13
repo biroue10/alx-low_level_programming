@@ -13,6 +13,7 @@ int main(void)
 	{
 		_putchar(c[compteur]);
 	}
+	_putchar('\n');
 	return (0);
 }
 
