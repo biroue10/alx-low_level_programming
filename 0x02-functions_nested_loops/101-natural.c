@@ -19,5 +19,6 @@ if ((compteur % 3 == 0) || (compteur % 5 == 0))
 }
 }
 printf("%d", somme);
+printf("\n");
 return (0);
 }
