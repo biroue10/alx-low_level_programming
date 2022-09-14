@@ -10,9 +10,7 @@
 
 void print_to_98(int n)
 {
-int compteur2;
-
-for (compteur2 = n; n <= 98; n++)
+for (int compteur2 = n; n <= 98; n++)
 {
 	printf("%d", n);
 	printf(",");
