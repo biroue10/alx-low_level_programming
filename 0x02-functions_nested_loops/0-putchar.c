@@ -5,13 +5,14 @@
 */
 int main(void)
 {
-	char c[] = "_putchar";
-	int compteur;
+	char school[10] = "_putchar";
 
-	for (compteur = 0; compteur <= 8; compteur++)
+	int i;
+
+	for (i = 0; i < 8; i++)
 	{
-	_putchar(c[compteur]);
+		_putchar(school[i]);
 	}
-	_putchar('\n');
+	_putchar(10);
 	return (0);
 }
