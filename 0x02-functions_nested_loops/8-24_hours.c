@@ -13,7 +13,7 @@ int compteur;
 int heure = 0;
 int compteur2;
 
-for (int compteur2 = 0; compteur2 <= 23; compteur2++)
+for (compteur2 = 0; compteur2 <= 23; compteur2++)
 {
 for (compteur = 0; compteur <= 59; compteur++)
 {
