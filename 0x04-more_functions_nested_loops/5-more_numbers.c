@@ -8,8 +8,8 @@
 
 void more_numbers(void)
 {
-int a;
-int compteur;
+char a;
+char compteur;
 for (compteur = '0'; compteur <= '9'; compteur++)
 {
 	for (a = '0'; a <= '14'; a++)
