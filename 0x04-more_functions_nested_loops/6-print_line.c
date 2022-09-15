@@ -1,6 +1,5 @@
 #include"main.h"
 #include<stdio.h>
-
 /**
  *print_line - this is our function name
  *@n: this is the argument of our function
@@ -8,11 +7,12 @@
  *Return: our function drawa pattern or print blanck space
  */
 
+
 void print_line(int n)
 {
-	int compteur = 0;
+	int i;
 
-	for (n > 0; compteur < n; compteur++)
+	for (i = 0; i < n; i++)
 	{
 		_putchar('_');
 	}
