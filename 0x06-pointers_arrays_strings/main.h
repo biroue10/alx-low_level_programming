@@ -18,3 +18,7 @@ void rev_string(char *s);
 void puts2(char *str);
 void puts_half(char *str);
 char *_strcat(char *dest, char *src);
+void reverse_array(int *a, int n);
+char *string_toupper(char *);
+char *cap_string(char *);
+int _strcmp(char *s1, char *s2);
