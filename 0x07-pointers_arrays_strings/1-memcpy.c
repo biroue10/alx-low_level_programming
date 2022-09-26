@@ -2,7 +2,7 @@
 #include<stdio.h>
 /**
  *_memcpy - this is our function name
- *Description: this function copy data from a memory bloc to another
+ *Description:this function copy data from a memory bloc to another
  *@dest:destination memory area
  *@src:source memory area
  *@n:number of the copy
@@ -12,7 +12,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	int i;
 
-	for (i = 0; i < n; i++)
+	for (i = 0; n > 0 ; i++, n--)
 	{
 		dest[i] = src[i];
 	}
