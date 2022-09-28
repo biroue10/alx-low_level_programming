@@ -24,3 +24,4 @@ char *cap_string(char *);
 int _strcmp(char *s1, char *s2);
 char *_memset(char *s, char b, unsigned int n);
 void _puts_recursion(char *s);
+void _print_rev_recursion(char *s);
