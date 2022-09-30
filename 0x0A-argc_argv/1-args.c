@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include"main.h"
+
 /**
  *main - this is our main function
  *Description:this function return the numbers of arguments
@@ -9,5 +11,5 @@
 int main(int argc, char *argv[])
 {
 	printf("%d", argc);
-	return (0);
+	printf("\n");
 }
