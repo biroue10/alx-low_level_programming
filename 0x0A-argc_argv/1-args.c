@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include"main.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
  *main - this is our main function
@@ -8,7 +8,7 @@
  *@argv: this is our second argument
  *Return: our function return an integer
  */
-int main(int argc, char *argv[])
+int main(int argc, char __attribute__ ((unused)) *argv[])
 {
 	printf("%d", argc - 1);
 	printf("\n");
