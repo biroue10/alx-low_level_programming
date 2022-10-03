@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include"main.h"
 /**
 *main - this is our function name
 *Description: this function return the multiplication of two numbers
